@@ -7,23 +7,22 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import dao.RecDaoImpl;
 import model.RecModel;
+import service.RecServiceImpl;
 
 @RestController
 public class RecControl {
 	
 	@Autowired 
-	RecDaoImpl recDaoImpl;
+	RecServiceImpl recSerImpl;
 	
 	@ResponseBody
 	@RequestMapping(value = "/getContentId",params="contentId", method = RequestMethod.GET)
 	public RecModel csvRead(@RequestParam("contentId")String contentId) {
 		System.out.println("Inside controller with contentId = "+contentId);
-		RecModel record=recDaoImpl.getEntry(contentId);
+		RecModel record=recSerImpl.getEntry(contentId);
 		System.out.println();
 		return record;
 	}
 		
 }
-// /RecTrial/contentTrenddata.csv

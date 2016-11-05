@@ -26,4 +26,5 @@
  
     </bean>-->
      <bean id="recDaoImpl" class="dao.RecDaoImpl"></bean>
+     <bean id="recSerImpl" class="service.RecServiceImpl"></bean>
 	</beans>
