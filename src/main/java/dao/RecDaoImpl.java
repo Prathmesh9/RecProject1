@@ -20,7 +20,7 @@ public class RecDaoImpl implements RecDao{
 		try {
 
 			/*-----Read File-----*/
-			fr = new FileReader("/home/bridgeit/Prathmesh/PrathmeshC/RecTrial/contentTrenddata.csv");
+			fr = new FileReader("/home/bridgeit/Prathmesh/PrathmeshC/contentTrenddata.csv");
 			BufferedReader br = new BufferedReader(fr);
 			boolean fl = false;
 			String entry;
