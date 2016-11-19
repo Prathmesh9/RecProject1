@@ -43,7 +43,7 @@ public class RecDaoImpl implements RecDao{
 				/*-----Finding required contentId and creating object-----*/
 				if (entryData[1].equals(contentId)) {
 						record = new RecModel(entryData[1], entryData[0], entryData[2], entryData[3],
-								Integer.parseInt(entryData[4]), Integer.parseInt(entryData[5]));
+								entryData[4],entryData[5]);
 						fl = true;
 					}
 				entry = br.readLine();

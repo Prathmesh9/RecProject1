@@ -12,19 +12,29 @@
 	http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<mvc:annotation-driven />
-	
+
 	<context:component-scan base-package="controller"></context:component-scan>
-	<!-- <bean id="viewResolver"
-		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF/jsp/"></property>
-		<property name="suffix" value=".jsp"></property>
-	</bean> -->
-<!-- 	<bean id="messageSource"
-        class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
- 
-        <property name="basename" value="/WEB-INF/" /> 
- 
-    </bean>-->
-     <bean id="recDaoImpl" class="dao.RecDaoImpl"></bean>
-     <bean id="recSerImpl" class="service.RecServiceImpl"></bean>
-	</beans>
+	<!-- <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
+		<property name="prefix" value="/WEB-INF/jsp/"></property> <property name="suffix" 
+		value=".jsp"></property> </bean> -->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+
+		<property name="basename" value="/resources/" />
+
+	</bean>
+	<context:property-placeholder location="classpath:resource.properties" />
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:resource.properties</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="recDaoImpl" class="dao.RecDaoImpl"></bean>
+	<bean id="redisDaoImpl" class="dao.RedisDaoImpl"></bean>
+	<bean id="recSerImpl" class="service.RecServiceImpl"></bean>
+	
+</beans>
