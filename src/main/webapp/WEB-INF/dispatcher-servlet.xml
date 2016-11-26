@@ -33,8 +33,7 @@
 			</list>
 		</property>
 	</bean>
-	<bean id="recDaoImpl" class="dao.RecDaoImpl"></bean>
-	<bean id="redisDaoImpl" class="dao.RedisDaoImpl"></bean>
-	<bean id="recSerImpl" class="service.RecServiceImpl"></bean>
-	
+	<bean id="recDaoImpl" class="implimentation.RecImpl"></bean>
+	<bean id="redisDaoImpl" class="implimentation.RedisImpl"></bean>
+	<bean id="recSerImpl" class="service.RecServiceImpl" init-method="onStartUp"></bean>
 </beans>

@@ -79,7 +79,7 @@ public class RecModel {
 		
 	}
 	
-	public RecModel(String mContentID,String mVisitorID,String mContentName,String mCategoryName,String mView,String mDownload){
+	public RecModel(String mVisitorID,String mContentID,String mContentName,String mCategoryName,String mView,String mDownload){
 		this.setmContentID(mContentID);
 		this.setmCategoryName(mCategoryName);
 		this.setmContentName(mContentName);

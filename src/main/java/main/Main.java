@@ -1,25 +1,22 @@
-package controller;
+package main;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 
 import implimentation.Utility;
 import model.RecModel;
 import service.RecServiceImpl;
 
-@RestController
-public class RecControl {
+public class Main {
+	RecServiceImpl recSerImpl=new RecServiceImpl();
 
-	@Autowired
-	RecServiceImpl recSerImpl;
-
-	/*@EventListener
-	public void onStartUp(ContextStartedEvent event) {
+	public static void main(String[] args) {
+		
+	}
+	
+	public void onStartUp() {
 		FileReader fr;
 		String[] entryData;
 		String temp = "visitor_id";
@@ -64,17 +61,14 @@ public class RecControl {
 		} catch (NullPointerException e) {
 			e.printStackTrace();
 		}
-		// return "redirect:/get";
 	}
-*/
-	@RequestMapping(value = "/getContent", headers = "Accept=application/json", method = RequestMethod.POST)
-	public ModelAndView csvRead(@RequestBody String content, RedirectAttributes redirectAttibute) {
+	
+	public void csvRead(String content) {
 		System.out.println("Inside controller with contentId = " + content);
 		Utility u = new Utility();
 		RecModel record = u.fromJson(content);
-		redirectAttibute.addFlashAttribute("recmodel", record);
-		System.out.println("Outside");
-		return new ModelAndView("redirect:/get");
+		
+	
 	}
 
 }

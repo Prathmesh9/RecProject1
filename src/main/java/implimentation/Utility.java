@@ -1,4 +1,4 @@
-package dao;
+package implimentation;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -10,6 +10,8 @@ import java.util.Set;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
+
+import model.RecModel;
 
 public class Utility {
 
@@ -28,12 +30,20 @@ public class Utility {
 		return obj.fromJson(contentIDString, new TypeToken<List<String>>() {
 		}.getType());
 	}
+	
+	public RecModel toModel(String visitorIDString){
+		return obj.fromJson(visitorIDString, RecModel.class);
+	}
 
 	public String createContent(String contentName, String categoryName) {
 		JsonObject jObj = new JsonObject();
 		jObj.addProperty("ContentName", contentName);
 		jObj.addProperty("CategoryName", categoryName);
 		return jObj.toString();
+	}
+	
+	public RecModel fromJson(String str){
+		return obj.fromJson(str, RecModel.class);
 	}
 
 	public Properties getProperties() {

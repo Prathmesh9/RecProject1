@@ -1,4 +1,4 @@
-package dao;
+package recInterface;
 
 import model.RecModel;
 

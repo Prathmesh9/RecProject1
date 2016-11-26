@@ -1,4 +1,4 @@
-package dao;
+package implimentation;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -8,9 +8,10 @@ import java.io.IOException;
 import org.springframework.stereotype.Repository;
 
 import model.RecModel;
+import recInterface.RecDao;
 
 @Repository
-public class RecDaoImpl implements RecDao{
+public class RecImpl implements RecDao{
 
 	public RecModel getEntry(String contentId) {
 		FileReader fr;
