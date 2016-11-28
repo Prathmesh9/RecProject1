@@ -1,29 +1,22 @@
 package service;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.event.ContextStartedEvent;
+import org.springframework.stereotype.Service;
 
-import implimentation.RecImpl;
-import implimentation.RedisImpl;
 import model.RecModel;
+import recInterface.RecDaoInterface;
+import recInterface.RedisInterface;
 
+@Service
 public class RecServiceImpl implements RecService{
 
 	@Autowired
-	RecImpl recImpl;
+	RedisInterface redisImpl;
 	
 	@Autowired
-	RedisImpl redisImpl;
-	
-	public RecModel getEntry(String contentId) {
-		return recImpl.getEntry(contentId);
-	}
+	RecDaoInterface recDaoImpl;
 	
 	public void addVisitor(RecModel rm) {
 		System.out.println("visitor_id: "+rm.getmVisitorID()+" visitor mview:"+rm.getmView());
@@ -44,13 +37,17 @@ public class RecServiceImpl implements RecService{
 		redisImpl.addToContentMap(rm);
 	}
 	
-	public void onStartUp() {
+	public void addToDao(RecModel rm){
+		recDaoImpl.addRecord(rm);
+	}
+	
+	/*public void onStartUp() {
 		FileReader fr;
 		String[] entryData;
 		String temp = "visitor_id";
 		int i;
 		try {
-			fr = new FileReader("/home/bridgeit/contentDb.csv");
+			fr = new FileReader("/home/bridgeit/contentTrial.csv");
 			BufferedReader br = new BufferedReader(fr);
 			String entry;
 			entry = br.readLine();
@@ -71,6 +68,7 @@ public class RecServiceImpl implements RecService{
 					RecModel rm = new RecModel(entryData[0], entryData[1], entryData[2], entryData[3], entryData[4],
 							entryData[5]);
 					this.addVisitor(rm);
+					this.addToDao(rm);
 				}
 				entry = br.readLine();
 			}
@@ -90,7 +88,5 @@ public class RecServiceImpl implements RecService{
 			e.printStackTrace();
 		}
 		// return "redirect:/get";
-	}
-
-
+	}*/
 }

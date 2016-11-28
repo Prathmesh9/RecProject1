@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashMap;
+
+import com.google.gson.stream.JsonReader;
 
 import implimentation.Utility;
 import model.RecModel;
@@ -22,6 +25,14 @@ public class Main {
 		String temp = "visitor_id";
 		int i;
 		try {
+			HashMap<String, String> hmap=new HashMap<>();
+			JsonReader reader = new JsonReader(new FileReader("abc.json"));
+			reader.beginObject();
+			while(reader.hasNext()){
+				hmap.put(reader.nextName(), reader.nextString());
+			}
+			
+			
 			fr = new FileReader("/home/bridgeit/contentDb.csv");
 			BufferedReader br = new BufferedReader(fr);
 			String entry;
@@ -41,7 +52,7 @@ public class Main {
 
 				if (!(entryData[0].equals(temp))) {
 					RecModel rm = new RecModel(entryData[0], entryData[1], entryData[2], entryData[3], entryData[4],
-							entryData[5]);
+							entryData[5],hmap.get(entryData[3]));
 					recSerImpl.addVisitor(rm);
 				}
 				entry = br.readLine();

@@ -1,7 +1,18 @@
 package service;
 
+import java.util.Set;
+
 import model.RecModel;
 
 public interface RecService {
-	public RecModel getEntry(String contentId);
+	//public RecModel getEntry(String contentId);
+	
+	public void addVisitor(RecModel rm);
+	
+	public void createContentIDMap();
+	
+	public Set<String> getSuggestion(RecModel rm);
+	
+	public void addToContentMap(RecModel rm);
+	public void addToDao(RecModel rm);
 }

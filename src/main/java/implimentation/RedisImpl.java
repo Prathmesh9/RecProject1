@@ -10,10 +10,11 @@ import java.util.Set;
 import org.apache.log4j.Logger;
 
 import model.RecModel;
+import recInterface.RedisInterface;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.exceptions.JedisConnectionException;
 
-public class RedisImpl {
+public class RedisImpl implements RedisInterface {
 
 	/*Connection to local redis server*/
 	final static Jedis redisConnect = new Jedis("localhost");
@@ -215,7 +216,6 @@ public class RedisImpl {
 					} else {
 						setContentMapValue(contentIDSetArr[k], contentIDSetArr[j], value);
 					}
-
 				}
 			}
 		}

@@ -14,26 +14,16 @@
 	<mvc:annotation-driven />
 
 	<context:component-scan base-package="controller"></context:component-scan>
-	<!-- <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
-		<property name="prefix" value="/WEB-INF/jsp/"></property> <property name="suffix" 
-		value=".jsp"></property> </bean> -->
-	<bean id="messageSource"
-		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-
-		<property name="basename" value="/resources/" />
-
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/"></property>
+		<property name="suffix" value=".jsp"></property>
 	</bean>
-	<context:property-placeholder location="classpath:resource.properties" />
+	<!-- <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource"> 
+		<property name="basename" value="/resources/" /> </bean> -->
 
-	<bean
-		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-		<property name="locations">
-			<list>
-				<value>classpath:resource.properties</value>
-			</list>
-		</property>
-	</bean>
-	<bean id="recDaoImpl" class="implimentation.RecImpl"></bean>
-	<bean id="redisDaoImpl" class="implimentation.RedisImpl"></bean>
-	<bean id="recSerImpl" class="service.RecServiceImpl" init-method="onStartUp"></bean>
+	<!-- <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"> 
+		<property name="locations"> <list> <value>classpath:resource.properties</value> 
+		</list> </property> </bean> -->
+
 </beans>
