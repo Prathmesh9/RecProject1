@@ -14,5 +14,10 @@ public interface RecService {
 	public Set<String> getSuggestion(RecModel rm);
 	
 	public void addToContentMap(RecModel rm);
+	
 	public void addToDao(RecModel rm);
+	
+	public RecModel getbyContentID(String pContentID);
+
+	public RecModel getbyContentName(String pContentName);
 }

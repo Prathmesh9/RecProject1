@@ -17,7 +17,7 @@ public class RecDaoImpl implements RecDaoInterface {
 	SessionFactory sessionFactory;
 
 	public void addRecord(RecModel record) {
-		if (!getByContentID(record.getmContentID())) {
+		if (getByContentID(record.getmContentID())==null) {
 			Session session = sessionFactory.openSession();
 			Transaction tr = session.beginTransaction();
 			System.out.println("Inside dao add " + record.getmVisitorID());
@@ -35,20 +35,60 @@ public class RecDaoImpl implements RecDaoInterface {
 		}
 	}
 
-	@SuppressWarnings("unchecked")
-	private boolean getByContentID(String pContentID) {
+	/*@SuppressWarnings("unchecked")
+	public boolean getByContentID(String pContentID) {
 		Session session = sessionFactory.openSession();
 
-		Query<String> query = session.createQuery("from RecModel u where u.mContentID= :ContentID");
+		Query query = session.createQuery("from RecModel u where u.mContentID= :ContentID");
 		query.setParameter("ContentID", pContentID);
-
+		//query.
 		List<String> result = query.getResultList(); // getting hql result
-
+		List<RecModel> res = query.getResultList();
+		System.out.println("Inside getcontentbyid : "+res.size());
 		// checking result
-		if (result != null && result.size() > 0)
-			return true;
+		if (result != null && result.size() > 0){
+			System.out.println("Inside getcontentbyid : contentid "+res.get(0).getmContentID());
+			return true;}
 		else
 			return false;
+
+	}*/
+	
+	@SuppressWarnings("unchecked")
+	public RecModel getByContentID(String pContentID) {
+		Session session = sessionFactory.openSession();
+
+		Query<RecModel> query = session.createQuery("from RecModel u where u.mContentID= :ContentID");
+		query.setParameter("ContentID", pContentID);
+		//query.
+		//List<String> result = query.getResultList(); // getting hql result
+		List<RecModel> res = query.getResultList();
+		System.out.println("Inside getcontentbyid : "+res.size());
+		// checking result
+		if (res != null && res.size() > 0){
+			System.out.println("Inside getcontentbyid : contentid "+res.get(0).getmContentID());
+			return res.get(0);}
+		else
+			return null;
+
+	}
+	
+	@SuppressWarnings("unchecked")
+	public RecModel getByContentName(String pContentName) {
+		Session session = sessionFactory.openSession();
+
+		Query<RecModel> query = session.createQuery("from RecModel u where u.mContentName= :ContentName");
+		query.setParameter("ContentName", pContentName);
+		//query.
+		//List<String> result = query.getResultList(); // getting hql result
+		List<RecModel> res = query.getResultList();
+		System.out.println("Inside getcontentbyname : "+res.size());
+		// checking result
+		if (res != null && res.size() > 0){
+			System.out.println("Inside getcontentbyname : contentid "+res.get(0).getmContentID()+" content name:"+res.get(0).getmContentName());
+			return res.get(0);}
+		else
+			return null;
 
 	}
 }

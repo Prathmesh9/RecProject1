@@ -7,5 +7,9 @@ import model.RecModel;
 @Repository
 public interface RecDaoInterface {
 	//public RecModel getEntry(String contentId);
-	public void addRecord(RecModel record);
+	public void addRecord(RecModel pRecord);
+	
+	public RecModel getByContentID(String pContentID);
+	
+	public RecModel getByContentName(String pContentName);
 }

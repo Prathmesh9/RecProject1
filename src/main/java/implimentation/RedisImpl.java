@@ -16,29 +16,30 @@ import redis.clients.jedis.exceptions.JedisConnectionException;
 
 public class RedisImpl implements RedisInterface {
 
-	/*Connection to local redis server*/
+	/* Connection to local redis server */
 	final static Jedis redisConnect = new Jedis("localhost");
 	static Utility u = new Utility();
 	Properties prop = u.getProperties();
 	Logger log = Logger.getLogger(RedisImpl.class);
 
 	/*
-	 * To check, fetch visitor_view_hashset from redis. If set exist add new visitor
-	 * to set otherwise create new set.
+	 * To check, fetch visitor_view_hashset from redis. If set exist add new
+	 * visitor to set otherwise create new set.
 	 */
 	public void addVisitorView(RecModel rm) {
 		redisConnect.select(3);
-		
-		/*create visitor_id_set*/
-		redisConnect.sadd(prop.getProperty("VISITOR_SET"), rm.getmVisitorID().substring(Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))));
-		
-		/*Fetch visitor_id_hashset from redis*/
+
+		/* create visitor_id_set */
+		redisConnect.sadd(prop.getProperty("VISITOR_SET"), rm.getmVisitorID()
+				.substring(Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))));
+
+		/* Fetch visitor_id_hashset from redis */
 		String record = redisConnect.hget(
 				prop.getProperty("VISITOR_ID_VIEW_SET") + ":" + rm.getmVisitorID().substring(
 						Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
 				rm.getmVisitorID());
-		
-		/*If set exist add new visitor to set otherwise create new set.*/
+
+		/* If set exist add new visitor to set otherwise create new set. */
 		Set<String> recordSet = new HashSet<String>();
 		if (record != null) {
 			System.out.println(record);
@@ -74,16 +75,17 @@ public class RedisImpl implements RedisInterface {
 	 */
 	public void addVisitorDownload(RecModel rm) {
 		redisConnect.select(3);
-		/*create visitor_id_set*/
-		redisConnect.sadd(prop.getProperty("VISITOR_SET"), rm.getmVisitorID().substring(Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))));
-		
-		/*Fetch visitor_id_hashset from redis*/
+		/* create visitor_id_set */
+		redisConnect.sadd(prop.getProperty("VISITOR_SET"), rm.getmVisitorID()
+				.substring(Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))));
+
+		/* Fetch visitor_id_hashset from redis */
 		String record = redisConnect.hget(
 				prop.getProperty("VISITOR_ID_DOWNLOAD_SET") + ":" + rm.getmVisitorID().substring(
 						Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
 				rm.getmVisitorID());
-		
-		/*If set exist add new visitor to set otherwise create new set.*/
+
+		/* If set exist add new visitor to set otherwise create new set. */
 		Set<String> recordSet = new HashSet<String>();
 		if (record != null) {
 			if (Integer.parseInt(rm.getmDownload()) > 0) {
@@ -114,25 +116,25 @@ public class RedisImpl implements RedisInterface {
 	/* To create content_id_set for */
 	public void addContentID(RecModel rm) {
 		redisConnect.select(3);
-		System.out.println("Content id add : "+rm.getmContentID());
-		
+		System.out.println("Content id add : " + rm.getmContentID());
+
 		String contentString = null;
-		
-		/*Create json string of content_id information*/
+
+		/* Create json string of content_id information */
 		contentString = u.createContent(rm.getmContentName(), rm.getmCategoryName());
-			
-		/*Set contentId json string in content_id_hash */
-			if (Integer.parseInt(rm.getmContentID()) > 100) {
-				
-				redisConnect.hset(
-						prop.getProperty("CONTENT_ID_SET") + ":" + rm.getmContentID().substring(
-								Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
-						rm.getmContentID(), contentString);
-			} else {
-				
-				redisConnect.hset(prop.getProperty("CONTENT_ID_SET") + ":" + rm.getmContentID(), rm.getmContentID(),
-						contentString);
-			}
+
+		/* Set contentId json string in content_id_hash */
+		if (Integer.parseInt(rm.getmContentID()) > 100) {
+
+			redisConnect.hset(
+					prop.getProperty("CONTENT_ID_SET") + ":" + rm.getmContentID().substring(
+							Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
+					rm.getmContentID(), contentString);
+		} else {
+
+			redisConnect.hset(prop.getProperty("CONTENT_ID_SET") + ":" + rm.getmContentID(), rm.getmContentID(),
+					contentString);
+		}
 	}
 
 	/* Create content map for recommendation using visitor_views_set */
@@ -160,7 +162,6 @@ public class RedisImpl implements RedisInterface {
 				Set<String> mapDownloadKeySet = getVisitorIDSet(prop.getProperty("VISITOR_ID_DOWNLOAD_SET"),
 						visitorSetArray[i]);
 
-				
 				mapViewKeySetIterator = mapViewKeySet.iterator();
 				mapDownloadKeySetIterator = mapDownloadKeySet.iterator();
 
@@ -270,13 +271,15 @@ public class RedisImpl implements RedisInterface {
 		}
 		return contentString;
 	}
-	
-	public void addToContentMap(RecModel rm){
-		String contentIDViewString = redisConnect.hget("VISITOR_ID_VIEW_SET:" + rm.getmVisitorID().substring(Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
+
+	public void addToContentMap(RecModel rm) {
+		String contentIDViewString = redisConnect.hget("VISITOR_ID_VIEW_SET:" + rm.getmVisitorID()
+				.substring(Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
 				rm.getmVisitorID());
 		Set<String> contentIDViewSet = u.toSet(contentIDViewString);
-		String contentIDDownloadString = redisConnect
-				.hget("VISITOR_ID_DOWNLOAD_SET:" + rm.getmVisitorID().substring(Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))), rm.getmVisitorID());
+		String contentIDDownloadString = redisConnect.hget("VISITOR_ID_DOWNLOAD_SET:" + rm.getmVisitorID()
+				.substring(Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
+				rm.getmVisitorID());
 		Set<String> contentIDDownloadSet = u.toSet(contentIDDownloadString);
 
 		contentIDViewSet.removeAll(contentIDDownloadSet);
@@ -332,21 +335,25 @@ public class RedisImpl implements RedisInterface {
 				0, -1);
 		System.out.println("Size = " + redisSuggestionList.size());
 
-		/* Fetching download_set for given visitor_id */
-		String visitorContentIDDownload = redisConnect.hget(
-				prop.getProperty("VISITOR_ID_DOWNLOAD_SET") + ":" + visitorID.substring(
-						Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
-				visitorID);
+		if (visitorID != null) {
+			/* Fetching download_set for given visitor_id */
+			String visitorContentIDDownload = redisConnect.hget(
+					prop.getProperty("VISITOR_ID_DOWNLOAD_SET") + ":" + visitorID.substring(
+							Integer.parseInt(prop.getProperty("low")), Integer.parseInt(prop.getProperty("high"))),
+					visitorID);
 
-		Set<String> visitorContentIDDownloadSet = u.toSet(visitorContentIDDownload);
-		System.out.println("Size = " + visitorContentIDDownloadSet.size());
+			Set<String> visitorContentIDDownloadSet = u.toSet(visitorContentIDDownload);
+			System.out.println("SUGGESTION_LIST:" + contentID);
+			System.out.println("Size = " + visitorContentIDDownloadSet.size());
 
-		/* Removing already downloaded content_id from suggestion_set */
-		boolean res = redisSuggestionList.removeAll(visitorContentIDDownloadSet);
+			/* Removing already downloaded content_id from suggestion_set */
+			redisSuggestionList.removeAll(visitorContentIDDownloadSet);
+		}
 
-		//long result = redisConnect.del(prop.getProperty("SUGGESTION_LIST") + ":" + contentID);
+		// long result = redisConnect.del(prop.getProperty("SUGGESTION_LIST") +
+		// ":" + contentID);
 
-		System.out.println("Result : " + res + " Size = " + redisSuggestionList.size());
+		//System.out.println("Result : " + res + " Size = " + redisSuggestionList.size());
 		return redisSuggestionList;
 	}
 

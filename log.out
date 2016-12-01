@@ -6,7 +6,7 @@ Adding [systemProperties] PropertySource with lowest search precedence
 Adding [systemEnvironment] PropertySource with lowest search precedence
 Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
 Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
-Refreshing Root WebApplicationContext: startup date [Mon Nov 28 19:05:33 IST 2016]; root of context hierarchy
+Refreshing Root WebApplicationContext: startup date [Thu Dec 01 18:31:54 IST 2016]; root of context hierarchy
 Adding [systemProperties] PropertySource with lowest search precedence
 Adding [systemEnvironment] PropertySource with lowest search precedence
 Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
@@ -32,11 +32,11 @@ Resolved location pattern [classpath*:controller/**/*.class] to resources [file 
 Identified candidate component class: file [/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RecTrial/WEB-INF/classes/controller/RecControl.class]
 Identified candidate component class: file [/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RecTrial/WEB-INF/classes/controller/RedisController.class]
 Loaded 28 bean definitions from location pattern [classpath:applicationContext.xml]
-Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@4806b39a: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,recControl,redisController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,dataSource,sessionFactory,redisImpl,recDaoImpl,recServiceImpl]; root of factory hierarchy
-Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@72dc3142]
-Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@86ee0b5]
-Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@1bab96db]
-Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@315f6e15]
+Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@11becf88: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,recControl,redisController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,dataSource,sessionFactory,redisImpl,recDaoImpl,recServiceImpl]; root of factory hierarchy
+Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@add591f]
+Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@2c47b7ce]
+Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@4c3216f8]
+Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@6e174aa4]
 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
@@ -66,10 +66,10 @@ Creating shared instance of singleton bean 'org.springframework.context.annotati
 Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
 Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
 Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
-Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@30e1f013]
-Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7a61da16]
-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@65e851e5]
-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4806b39a: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,recControl,redisController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,dataSource,sessionFactory,redisImpl,recDaoImpl,recServiceImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@6a158e8c]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@426b0d91]
+Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@62310fe2]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@11becf88: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,recControl,redisController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,dataSource,sessionFactory,redisImpl,recDaoImpl,recServiceImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
 Creating shared instance of singleton bean 'mvcContentNegotiationManager'
 Creating instance of bean 'mvcContentNegotiationManager'
 Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
@@ -85,22 +85,24 @@ Eagerly caching bean 'mvcCorsConfigurations' to allow for resolving potential ci
 Finished creating instance of bean 'mvcCorsConfigurations'
 Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
 Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
-Creating instance of bean '(inner bean)#32c96061'
+Creating instance of bean '(inner bean)#58013862'
 Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
 Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
-Finished creating instance of bean '(inner bean)#32c96061'
+Finished creating instance of bean '(inner bean)#58013862'
 No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
 Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
 Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
 Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
-Looking for request mappings in application context: Root WebApplicationContext: startup date [Mon Nov 28 19:05:33 IST 2016]; root of context hierarchy
-1 request handler methods found on class controller.RecControl: {public org.springframework.web.servlet.ModelAndView controller.RecControl.csvRead(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)={[/getContent],methods=[POST],produces=[application/json]}}
-Mapped "{[/getContent],methods=[POST],produces=[application/json]}" onto public org.springframework.web.servlet.ModelAndView controller.RecControl.csvRead(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
-1 request handler methods found on class controller.RedisController: {public java.util.Set controller.RedisController.redisImpliment(model.RecModel)={[/get],methods=[GET]}}
-Mapped "{[/get],methods=[GET]}" onto public java.util.Set<java.lang.String> controller.RedisController.redisImpliment(model.RecModel)
+Looking for request mappings in application context: Root WebApplicationContext: startup date [Thu Dec 01 18:31:54 IST 2016]; root of context hierarchy
+2 request handler methods found on class controller.RecControl: {public org.springframework.web.servlet.ModelAndView controller.RecControl.getSuggestionByJson(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)={[/getContentID],methods=[POST],produces=[application/json]}, public org.springframework.web.servlet.ModelAndView controller.RecControl.getSuggestionByString(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)={[/getContentName],methods=[POST]}}
+Mapped "{[/getContentID],methods=[POST],produces=[application/json]}" onto public org.springframework.web.servlet.ModelAndView controller.RecControl.getSuggestionByJson(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+Mapped "{[/getContentName],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView controller.RecControl.getSuggestionByString(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2 request handler methods found on class controller.RedisController: {public org.springframework.web.servlet.ModelAndView controller.RedisController.getByModel(model.RecModel)={[/get],methods=[GET]}, public org.springframework.web.servlet.ModelAndView controller.RedisController.getByContent(model.RecModel)={[/getContent],methods=[GET]}}
+Mapped "{[/get],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView controller.RedisController.getByModel(model.RecModel)
+Mapped "{[/getContent],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView controller.RedisController.getByContent(model.RecModel)
 Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
 Returning cached instance of singleton bean 'mvcCorsConfigurations'
 Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
@@ -114,7 +116,7 @@ Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'
 Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
 Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
 Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy20
+Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy72
 Trying to load META-INF/validation.xml for XML based Validator configuration.
 Trying to load META-INF/validation.xml via user class loader
 Trying to load META-INF/validation.xml via TCCL
@@ -125,68 +127,68 @@ Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.
 Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
 Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' to allow for resolving potential circular references
 Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Creating instance of bean '(inner bean)#a7fd763'
+Creating instance of bean '(inner bean)#3f0b8bb3'
 Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Returning cached instance of singleton bean 'org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0'
-Finished creating instance of bean '(inner bean)#a7fd763'
-Creating instance of bean '(inner bean)#66840de8'
-Finished creating instance of bean '(inner bean)#66840de8'
-Creating instance of bean '(inner bean)#3e7bd569'
-Finished creating instance of bean '(inner bean)#3e7bd569'
-Creating instance of bean '(inner bean)#ee81e8d'
-Finished creating instance of bean '(inner bean)#ee81e8d'
-Creating instance of bean '(inner bean)#7f98442b'
-Finished creating instance of bean '(inner bean)#7f98442b'
-Creating instance of bean '(inner bean)#6c80c37a'
-Finished creating instance of bean '(inner bean)#6c80c37a'
-Creating instance of bean '(inner bean)#6de3e2a3'
-Finished creating instance of bean '(inner bean)#6de3e2a3'
-Creating instance of bean '(inner bean)#4d605007'
-Creating instance of bean '(inner bean)#4853a772'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#4853a772'
-Finished creating instance of bean '(inner bean)#4853a772'
-Finished creating instance of bean '(inner bean)#4d605007'
-Creating instance of bean '(inner bean)#53d767c'
-Finished creating instance of bean '(inner bean)#53d767c'
-Creating instance of bean '(inner bean)#180e2bcc'
-Finished creating instance of bean '(inner bean)#180e2bcc'
+Finished creating instance of bean '(inner bean)#3f0b8bb3'
+Creating instance of bean '(inner bean)#7efab834'
+Finished creating instance of bean '(inner bean)#7efab834'
+Creating instance of bean '(inner bean)#37285062'
+Finished creating instance of bean '(inner bean)#37285062'
+Creating instance of bean '(inner bean)#1787a7a0'
+Finished creating instance of bean '(inner bean)#1787a7a0'
+Creating instance of bean '(inner bean)#48c35d6b'
+Finished creating instance of bean '(inner bean)#48c35d6b'
+Creating instance of bean '(inner bean)#2ad5db9a'
+Finished creating instance of bean '(inner bean)#2ad5db9a'
+Creating instance of bean '(inner bean)#54020eac'
+Finished creating instance of bean '(inner bean)#54020eac'
+Creating instance of bean '(inner bean)#422734bb'
+Creating instance of bean '(inner bean)#49425f16'
+Invoking afterPropertiesSet() on bean with name '(inner bean)#49425f16'
+Finished creating instance of bean '(inner bean)#49425f16'
+Finished creating instance of bean '(inner bean)#422734bb'
+Creating instance of bean '(inner bean)#1867b91c'
+Finished creating instance of bean '(inner bean)#1867b91c'
+Creating instance of bean '(inner bean)#241e6c7f'
+Finished creating instance of bean '(inner bean)#241e6c7f'
 Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
-Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Nov 28 19:05:33 IST 2016]; root of context hierarchy
+Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Dec 01 18:31:54 IST 2016]; root of context hierarchy
 Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
 Creating shared instance of singleton bean 'mvcUriComponentsContributor'
 Creating instance of bean 'mvcUriComponentsContributor'
 Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
-Creating instance of bean '(inner bean)#40b5649'
+Creating instance of bean '(inner bean)#59011347'
 Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Creating instance of bean '(inner bean)#a7fd763#1'
+Creating instance of bean '(inner bean)#3f0b8bb3#1'
 Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Returning cached instance of singleton bean 'org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0'
-Finished creating instance of bean '(inner bean)#a7fd763#1'
-Creating instance of bean '(inner bean)#66840de8#1'
-Finished creating instance of bean '(inner bean)#66840de8#1'
-Creating instance of bean '(inner bean)#3e7bd569#1'
-Finished creating instance of bean '(inner bean)#3e7bd569#1'
-Creating instance of bean '(inner bean)#ee81e8d#1'
-Finished creating instance of bean '(inner bean)#ee81e8d#1'
-Creating instance of bean '(inner bean)#7f98442b#1'
-Finished creating instance of bean '(inner bean)#7f98442b#1'
-Creating instance of bean '(inner bean)#6c80c37a#1'
-Finished creating instance of bean '(inner bean)#6c80c37a#1'
-Creating instance of bean '(inner bean)#6de3e2a3#1'
-Finished creating instance of bean '(inner bean)#6de3e2a3#1'
-Creating instance of bean '(inner bean)#4d605007#1'
-Creating instance of bean '(inner bean)#4853a772#1'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#4853a772#1'
-Finished creating instance of bean '(inner bean)#4853a772#1'
-Finished creating instance of bean '(inner bean)#4d605007#1'
-Creating instance of bean '(inner bean)#53d767c#1'
-Finished creating instance of bean '(inner bean)#53d767c#1'
-Creating instance of bean '(inner bean)#180e2bcc#1'
-Finished creating instance of bean '(inner bean)#180e2bcc#1'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#40b5649'
-Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Nov 28 19:05:33 IST 2016]; root of context hierarchy
+Finished creating instance of bean '(inner bean)#3f0b8bb3#1'
+Creating instance of bean '(inner bean)#7efab834#1'
+Finished creating instance of bean '(inner bean)#7efab834#1'
+Creating instance of bean '(inner bean)#37285062#1'
+Finished creating instance of bean '(inner bean)#37285062#1'
+Creating instance of bean '(inner bean)#1787a7a0#1'
+Finished creating instance of bean '(inner bean)#1787a7a0#1'
+Creating instance of bean '(inner bean)#48c35d6b#1'
+Finished creating instance of bean '(inner bean)#48c35d6b#1'
+Creating instance of bean '(inner bean)#2ad5db9a#1'
+Finished creating instance of bean '(inner bean)#2ad5db9a#1'
+Creating instance of bean '(inner bean)#54020eac#1'
+Finished creating instance of bean '(inner bean)#54020eac#1'
+Creating instance of bean '(inner bean)#422734bb#1'
+Creating instance of bean '(inner bean)#49425f16#1'
+Invoking afterPropertiesSet() on bean with name '(inner bean)#49425f16#1'
+Finished creating instance of bean '(inner bean)#49425f16#1'
+Finished creating instance of bean '(inner bean)#422734bb#1'
+Creating instance of bean '(inner bean)#1867b91c#1'
+Finished creating instance of bean '(inner bean)#1867b91c#1'
+Creating instance of bean '(inner bean)#241e6c7f#1'
+Finished creating instance of bean '(inner bean)#241e6c7f#1'
+Invoking afterPropertiesSet() on bean with name '(inner bean)#59011347'
+Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Dec 01 18:31:54 IST 2016]; root of context hierarchy
 Returning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
-Finished creating instance of bean '(inner bean)#40b5649'
+Finished creating instance of bean '(inner bean)#59011347'
 Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
 Finished creating instance of bean 'mvcUriComponentsContributor'
@@ -195,27 +197,27 @@ Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.
 Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
 Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
 Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Creating instance of bean '(inner bean)#66840de8#2'
-Finished creating instance of bean '(inner bean)#66840de8#2'
-Creating instance of bean '(inner bean)#3e7bd569#2'
-Finished creating instance of bean '(inner bean)#3e7bd569#2'
-Creating instance of bean '(inner bean)#ee81e8d#2'
-Finished creating instance of bean '(inner bean)#ee81e8d#2'
-Creating instance of bean '(inner bean)#7f98442b#2'
-Finished creating instance of bean '(inner bean)#7f98442b#2'
-Creating instance of bean '(inner bean)#6c80c37a#2'
-Finished creating instance of bean '(inner bean)#6c80c37a#2'
-Creating instance of bean '(inner bean)#6de3e2a3#2'
-Finished creating instance of bean '(inner bean)#6de3e2a3#2'
-Creating instance of bean '(inner bean)#4d605007#2'
-Creating instance of bean '(inner bean)#4853a772#2'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#4853a772#2'
-Finished creating instance of bean '(inner bean)#4853a772#2'
-Finished creating instance of bean '(inner bean)#4d605007#2'
-Creating instance of bean '(inner bean)#4127fe4'
-Finished creating instance of bean '(inner bean)#4127fe4'
+Creating instance of bean '(inner bean)#7efab834#2'
+Finished creating instance of bean '(inner bean)#7efab834#2'
+Creating instance of bean '(inner bean)#37285062#2'
+Finished creating instance of bean '(inner bean)#37285062#2'
+Creating instance of bean '(inner bean)#1787a7a0#2'
+Finished creating instance of bean '(inner bean)#1787a7a0#2'
+Creating instance of bean '(inner bean)#48c35d6b#2'
+Finished creating instance of bean '(inner bean)#48c35d6b#2'
+Creating instance of bean '(inner bean)#2ad5db9a#2'
+Finished creating instance of bean '(inner bean)#2ad5db9a#2'
+Creating instance of bean '(inner bean)#54020eac#2'
+Finished creating instance of bean '(inner bean)#54020eac#2'
+Creating instance of bean '(inner bean)#422734bb#2'
+Creating instance of bean '(inner bean)#49425f16#2'
+Invoking afterPropertiesSet() on bean with name '(inner bean)#49425f16#2'
+Finished creating instance of bean '(inner bean)#49425f16#2'
+Finished creating instance of bean '(inner bean)#422734bb#2'
+Creating instance of bean '(inner bean)#5a42f8b'
+Finished creating instance of bean '(inner bean)#5a42f8b'
 Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
-Looking for exception mappings: Root WebApplicationContext: startup date [Mon Nov 28 19:05:33 IST 2016]; root of context hierarchy
+Looking for exception mappings: Root WebApplicationContext: startup date [Thu Dec 01 18:31:54 IST 2016]; root of context hierarchy
 Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
 Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
 Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
@@ -230,7 +232,7 @@ Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHa
 Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
 Returning cached instance of singleton bean 'mvcCorsConfigurations'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
-Looking for URL mappings in application context: Root WebApplicationContext: startup date [Mon Nov 28 19:05:33 IST 2016]; root of context hierarchy
+Looking for URL mappings in application context: Root WebApplicationContext: startup date [Thu Dec 01 18:31:54 IST 2016]; root of context hierarchy
 Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
 Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': no URL paths identified
 Rejected bean name 'mvcCorsConfigurations': no URL paths identified
@@ -321,118 +323,118 @@ Overriding existing service binding [org.hibernate.secure.spi.JaccService]
 Building session factory using provided StandardServiceRegistry
 Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
 HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-Adding type registration boolean -> org.hibernate.type.BooleanType@53305c67
-Adding type registration boolean -> org.hibernate.type.BooleanType@53305c67
-Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@53305c67
-Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@3d0fe5d9
-Adding type registration true_false -> org.hibernate.type.TrueFalseType@37b6ea75
-Adding type registration yes_no -> org.hibernate.type.YesNoType@35c8b8d7
-Adding type registration byte -> org.hibernate.type.ByteType@676e64be
-Adding type registration byte -> org.hibernate.type.ByteType@676e64be
-Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@676e64be
-Adding type registration character -> org.hibernate.type.CharacterType@35d2ee71
-Adding type registration char -> org.hibernate.type.CharacterType@35d2ee71
-Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@35d2ee71
-Adding type registration short -> org.hibernate.type.ShortType@11227f8c
-Adding type registration short -> org.hibernate.type.ShortType@11227f8c
-Adding type registration java.lang.Short -> org.hibernate.type.ShortType@11227f8c
-Adding type registration integer -> org.hibernate.type.IntegerType@54b63458
-Adding type registration int -> org.hibernate.type.IntegerType@54b63458
-Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@54b63458
-Adding type registration long -> org.hibernate.type.LongType@6eb0dc79
-Adding type registration long -> org.hibernate.type.LongType@6eb0dc79
-Adding type registration java.lang.Long -> org.hibernate.type.LongType@6eb0dc79
-Adding type registration float -> org.hibernate.type.FloatType@14514767
-Adding type registration float -> org.hibernate.type.FloatType@14514767
-Adding type registration java.lang.Float -> org.hibernate.type.FloatType@14514767
-Adding type registration double -> org.hibernate.type.DoubleType@4e79c35b
-Adding type registration double -> org.hibernate.type.DoubleType@4e79c35b
-Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4e79c35b
-Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@554ecebd
-Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@554ecebd
-Adding type registration big_integer -> org.hibernate.type.BigIntegerType@41392d78
-Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@41392d78
-Adding type registration string -> org.hibernate.type.StringType@6c019110
-Adding type registration java.lang.String -> org.hibernate.type.StringType@6c019110
-Adding type registration nstring -> org.hibernate.type.StringNVarcharType@511e5f4d
-Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@61191da2
-Adding type registration url -> org.hibernate.type.UrlType@66ec4612
-Adding type registration java.net.URL -> org.hibernate.type.UrlType@66ec4612
-Adding type registration Duration -> org.hibernate.type.DurationType@6863b58b
-Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6863b58b
-Adding type registration Instant -> org.hibernate.type.InstantType@3a163512
-Adding type registration java.time.Instant -> org.hibernate.type.InstantType@3a163512
-Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@def6c8
-Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@def6c8
-Adding type registration LocalDate -> org.hibernate.type.LocalDateType@3c46bc64
-Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@3c46bc64
-Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1f2a5b08
-Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1f2a5b08
-Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3f692a20
-Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3f692a20
-Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@27640888
-Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@27640888
-Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5c5e60c4
-Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5c5e60c4
-Adding type registration date -> org.hibernate.type.DateType@790d908d
-Adding type registration java.sql.Date -> org.hibernate.type.DateType@790d908d
-Adding type registration time -> org.hibernate.type.TimeType@271ac44a
-Adding type registration java.sql.Time -> org.hibernate.type.TimeType@271ac44a
-Adding type registration timestamp -> org.hibernate.type.TimestampType@52d17964
-Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@52d17964
-Adding type registration java.util.Date -> org.hibernate.type.TimestampType@52d17964
-Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@681f395e
-Adding type registration calendar -> org.hibernate.type.CalendarType@6a094c50
-Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6a094c50
-Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6a094c50
-Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@64f0ed92
-Adding type registration locale -> org.hibernate.type.LocaleType@71273561
-Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@71273561
-Adding type registration currency -> org.hibernate.type.CurrencyType@1243d1b9
-Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1243d1b9
-Adding type registration timezone -> org.hibernate.type.TimeZoneType@1bce9c49
-Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1bce9c49
-Adding type registration class -> org.hibernate.type.ClassType@7b559277
-Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7b559277
-Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@212593ea
-Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@212593ea
-Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@462be546
-Adding type registration binary -> org.hibernate.type.BinaryType@6fac4efd
-Adding type registration byte[] -> org.hibernate.type.BinaryType@6fac4efd
-Adding type registration [B -> org.hibernate.type.BinaryType@6fac4efd
-Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6811dcea
-Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6811dcea
-Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6811dcea
-Adding type registration row_version -> org.hibernate.type.RowVersionType@9443fc3
-Adding type registration image -> org.hibernate.type.ImageType@758a208
-Adding type registration characters -> org.hibernate.type.CharArrayType@2bf10143
-Adding type registration char[] -> org.hibernate.type.CharArrayType@2bf10143
-Adding type registration [C -> org.hibernate.type.CharArrayType@2bf10143
-Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3a9598b1
-Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3a9598b1
-Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3a9598b1
-Adding type registration text -> org.hibernate.type.TextType@3a630502
-Adding type registration ntext -> org.hibernate.type.NTextType@116368bf
-Adding type registration blob -> org.hibernate.type.BlobType@5b826316
-Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5b826316
-Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@432570a2
-Adding type registration clob -> org.hibernate.type.ClobType@76831be0
-Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@76831be0
-Adding type registration nclob -> org.hibernate.type.NClobType@465d8dc6
-Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@465d8dc6
-Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@16ea59bc
-Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@b0696ba
-Adding type registration serializable -> org.hibernate.type.SerializableType@75013fdf
-Adding type registration object -> org.hibernate.type.ObjectType@41c49474
-Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@41c49474
-Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@225a46ee
-Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@47d801e5
-Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1ce3ee9b
-Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1c6bd967
-Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6c769132
-Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6b267270
-Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@6832deb9
-Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2a508239
+Adding type registration boolean -> org.hibernate.type.BooleanType@4c0c9eb8
+Adding type registration boolean -> org.hibernate.type.BooleanType@4c0c9eb8
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4c0c9eb8
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7e54af9a
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@14b266b2
+Adding type registration yes_no -> org.hibernate.type.YesNoType@fe24b0f
+Adding type registration byte -> org.hibernate.type.ByteType@24a86dd3
+Adding type registration byte -> org.hibernate.type.ByteType@24a86dd3
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@24a86dd3
+Adding type registration character -> org.hibernate.type.CharacterType@4fb4495
+Adding type registration char -> org.hibernate.type.CharacterType@4fb4495
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@4fb4495
+Adding type registration short -> org.hibernate.type.ShortType@49fd8000
+Adding type registration short -> org.hibernate.type.ShortType@49fd8000
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@49fd8000
+Adding type registration integer -> org.hibernate.type.IntegerType@70bfaee8
+Adding type registration int -> org.hibernate.type.IntegerType@70bfaee8
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@70bfaee8
+Adding type registration long -> org.hibernate.type.LongType@709c705d
+Adding type registration long -> org.hibernate.type.LongType@709c705d
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@709c705d
+Adding type registration float -> org.hibernate.type.FloatType@31b88338
+Adding type registration float -> org.hibernate.type.FloatType@31b88338
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@31b88338
+Adding type registration double -> org.hibernate.type.DoubleType@3c18168f
+Adding type registration double -> org.hibernate.type.DoubleType@3c18168f
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3c18168f
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@8abc331
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@8abc331
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@14741242
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@14741242
+Adding type registration string -> org.hibernate.type.StringType@1521c8a1
+Adding type registration java.lang.String -> org.hibernate.type.StringType@1521c8a1
+Adding type registration nstring -> org.hibernate.type.StringNVarcharType@685faabc
+Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@72ed7c36
+Adding type registration url -> org.hibernate.type.UrlType@2235d10c
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@2235d10c
+Adding type registration Duration -> org.hibernate.type.DurationType@675f8b32
+Adding type registration java.time.Duration -> org.hibernate.type.DurationType@675f8b32
+Adding type registration Instant -> org.hibernate.type.InstantType@684c01a7
+Adding type registration java.time.Instant -> org.hibernate.type.InstantType@684c01a7
+Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@26e47dd6
+Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@26e47dd6
+Adding type registration LocalDate -> org.hibernate.type.LocalDateType@3184fecd
+Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@3184fecd
+Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@11c3baa9
+Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@11c3baa9
+Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1b9b987c
+Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1b9b987c
+Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@7dfb3aea
+Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@7dfb3aea
+Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7e14f809
+Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7e14f809
+Adding type registration date -> org.hibernate.type.DateType@2491156d
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@2491156d
+Adding type registration time -> org.hibernate.type.TimeType@3c1b156c
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3c1b156c
+Adding type registration timestamp -> org.hibernate.type.TimestampType@2dbaba5e
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2dbaba5e
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2dbaba5e
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@7411874d
+Adding type registration calendar -> org.hibernate.type.CalendarType@6e4069cb
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6e4069cb
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6e4069cb
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@232eacc9
+Adding type registration locale -> org.hibernate.type.LocaleType@4297ac3c
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4297ac3c
+Adding type registration currency -> org.hibernate.type.CurrencyType@261ca8c2
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@261ca8c2
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@471dbf0c
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@471dbf0c
+Adding type registration class -> org.hibernate.type.ClassType@59004395
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@59004395
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1180163d
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1180163d
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2c14d553
+Adding type registration binary -> org.hibernate.type.BinaryType@695f3f83
+Adding type registration byte[] -> org.hibernate.type.BinaryType@695f3f83
+Adding type registration [B -> org.hibernate.type.BinaryType@695f3f83
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7fc696ee
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7fc696ee
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7fc696ee
+Adding type registration row_version -> org.hibernate.type.RowVersionType@39afc61d
+Adding type registration image -> org.hibernate.type.ImageType@18c09441
+Adding type registration characters -> org.hibernate.type.CharArrayType@4b1f86a2
+Adding type registration char[] -> org.hibernate.type.CharArrayType@4b1f86a2
+Adding type registration [C -> org.hibernate.type.CharArrayType@4b1f86a2
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@69d471a1
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@69d471a1
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@69d471a1
+Adding type registration text -> org.hibernate.type.TextType@72d79ebc
+Adding type registration ntext -> org.hibernate.type.NTextType@117eb2c4
+Adding type registration blob -> org.hibernate.type.BlobType@6de9c103
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6de9c103
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@778895c5
+Adding type registration clob -> org.hibernate.type.ClobType@4ec200d9
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4ec200d9
+Adding type registration nclob -> org.hibernate.type.NClobType@3def5d88
+Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3def5d88
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@11aca63e
+Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@2eeb8ae6
+Adding type registration serializable -> org.hibernate.type.SerializableType@69c7a498
+Adding type registration object -> org.hibernate.type.ObjectType@745cfd5
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@745cfd5
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@774f8bda
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5eddc981
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@660d409b
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1ee46ddc
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@157e2481
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@255f666e
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@29daf3c6
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@146de1ac
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
 Database ->
        name : MySQL
@@ -514,7 +516,7 @@ JPA query language strict compliance: disabled
 Named query checking : enabled
 Second-level cache: enabled
 Second-level query cache: disabled
-Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@73bdccbd
+Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@1a2e7d84
 Second-level cache region prefix: null
 Optimize second-level cache for minimal puts: disabled
 Structured second-level cache entries: disabled
@@ -535,7 +537,7 @@ Instantiating session factory with properties: {sun.desktop=gnome, awt.toolkit=s
   delegate: false
 ----------> Parent Classloader:
 java.net.URLClassLoader@1f32e575
-, common.loader="/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/lib","/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/lib/*.jar","/home/bridgeit/Tomcat-Server/apache-tomcat-8.5.5/lib","/home/bridgeit/Tomcat-Server/apache-tomcat-8.5.5/lib/*.jar", os.version=4.4.0-47-generic, java.endorsed.dirs=/home/bridgeit/Tomcat-Server/apache-tomcat-8.5.5/endorsed, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/tmp, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-core*.jar,log4j-taglib*.jar,log4javascript*.jar,slf4j-taglib*.jar, catalina.home=/home/bridgeit/Tomcat-Server/apache-tomcat-8.5.5, java.version=1.8.0_101, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,jaspic-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-storeconfig.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-util-scan.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-websocket.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,taglibs-standard-spec-*.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest-*.jar,easymock-*.jar,cglib-*.jar,objenesis-*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar, user.dir=/home/bridgeit/eclipse, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, sun.os.patch.level=unknown, catalina.base=/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0, shared.loader=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@36ecd31a, wtp.deploy=/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.101-b13, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@52f886a2, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, tomcat.util.buf.StringCache.byte.enabled=true, java.class.version=52.0}
+, common.loader="/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/lib","/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/lib/*.jar","/home/bridgeit/Tomcat-Server/apache-tomcat-8.5.5/lib","/home/bridgeit/Tomcat-Server/apache-tomcat-8.5.5/lib/*.jar", os.version=4.4.0-51-generic, java.endorsed.dirs=/home/bridgeit/Tomcat-Server/apache-tomcat-8.5.5/endorsed, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/tmp, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-core*.jar,log4j-taglib*.jar,log4javascript*.jar,slf4j-taglib*.jar, catalina.home=/home/bridgeit/Tomcat-Server/apache-tomcat-8.5.5, java.version=1.8.0_101, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,jaspic-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-storeconfig.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-util-scan.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-websocket.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,taglibs-standard-spec-*.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest-*.jar,easymock-*.jar,cglib-*.jar,objenesis-*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar, user.dir=/home/bridgeit/eclipse, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, sun.os.patch.level=unknown, catalina.base=/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0, shared.loader=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@51b70274, wtp.deploy=/home/bridgeit/Prathmesh/PrathmeshC/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.101-b13, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@4667899d, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, tomcat.util.buf.StringCache.byte.enabled=true, java.class.version=52.0}
 Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
 Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
 Trying to load META-INF/validation.xml for XML based Validator configuration.
@@ -556,7 +558,7 @@ Static SQL for entity: model.RecModel
  Insert 0: insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
  Update 0: update RECORD_MODEL set CATEGORY_NAME=?, CONTENT_NAME=?, IMG_URL=? where CONTENT_ID=?
  Delete 0: delete from RECORD_MODEL where CONTENT_ID=?
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5cfe863e]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@40fe3d6e]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -572,7 +574,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [NONE]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@37795379]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@325fe8fb]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -588,7 +590,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [READ]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@395e349e]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@704decd9]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -604,7 +606,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [UPGRADE]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=? for update
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ac3498f]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@336c71e0]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -620,7 +622,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [UPGRADE_NOWAIT]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=? for update
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@34faa5d0]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1b909568]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -636,7 +638,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [UPGRADE_SKIPLOCKED]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=? for update
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@325baf21]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5fcd4044]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -652,7 +654,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [FORCE]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=? for update
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6bbe3dc1]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3a4b5bf3]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -668,7 +670,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [PESSIMISTIC_READ]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=? lock in share mode
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61bffe0]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3957abb6]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -684,7 +686,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [PESSIMISTIC_WRITE]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=? for update
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@48e59582]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54ef999a]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -700,7 +702,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [PESSIMISTIC_FORCE_INCREMENT]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=? for update
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4bee6e00]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3400bc81]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -716,7 +718,7 @@ LoadPlan(entity=model.RecModel)
           - suffixed key columns - {CONTENT_1_0_0_}
 
 Static select for entity model.RecModel [OPTIMISTIC]: select recmodel0_.CONTENT_ID as CONTENT_1_0_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_0_, recmodel0_.IMG_URL as IMG_URL4_0_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
-Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@210bbfc]
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@763b913d]
 Visiting attribute path : mCategoryName
 Visiting attribute path : mContentName
 Visiting attribute path : mImgUrl
@@ -741,8 +743,8 @@ No JtaPlatformResolver was specified, using default [org.hibernate.engine.transa
 Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 Checking 0 named HQL queries
 Checking 0 named SQL queries
-Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@47bd0010
-Registering SessionFactory: 273e5c2e-0f48-46bb-993e-fdea901f8afe (<unnamed>)
+Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@43f7761d
+Registering SessionFactory: ffca1d14-3691-4373-b8b3-548b700bd75a (<unnamed>)
 Not binding SessionFactory to JNDI, no JNDI name configured
 Finished creating instance of bean 'sessionFactory'
 Autowiring by type from bean name 'recDaoImpl' to bean named 'sessionFactory'
@@ -753,9 +755,9 @@ Autowiring by type from bean name 'recControl' to bean named 'recServiceImpl'
 Finished creating instance of bean 'recControl'
 Creating shared instance of singleton bean 'redisController'
 Creating instance of bean 'redisController'
-Registered injected element on class [controller.RedisController]: AutowiredFieldElement for service.RecServiceImpl controller.RedisController.recSerImpl
+Registered injected element on class [controller.RedisController]: AutowiredFieldElement for service.RecService controller.RedisController.recSerImpl
 Eagerly caching bean 'redisController' to allow for resolving potential circular references
-Processing injected element of bean 'redisController': AutowiredFieldElement for service.RecServiceImpl controller.RedisController.recSerImpl
+Processing injected element of bean 'redisController': AutowiredFieldElement for service.RecService controller.RedisController.recSerImpl
 Returning cached instance of singleton bean 'recServiceImpl'
 Autowiring by type from bean name 'redisController' to bean named 'recServiceImpl'
 Finished creating instance of bean 'redisController'
@@ -781,11 +783,11 @@ Returning cached instance of singleton bean 'org.springframework.context.annotat
 Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
 Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
 1 @EventListener methods processed on bean 'recControl': {public void controller.RecControl.onStartUp(org.springframework.context.event.ContextRefreshedEvent)=@org.springframework.context.event.EventListener(condition=, value=[], classes=[])}
-Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@42b07aab]
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@76515082]
 Returning cached instance of singleton bean 'lifecycleProcessor'
 Returning cached instance of singleton bean 'recControl'
 Statistics initialized [enabled=false]
-QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@47bbe0c9
+QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@2d84a4c6
 HHH000397: Using ASTQueryTranslatorFactory
 parse() - HQL: from model.RecModel u where u.mContentID= :ContentID
 --- HQL AST ---
@@ -809,7 +811,7 @@ throwQueryException() : no errors
 select << begin [level=1, statement=select]
 FromClause{level=1} : model.RecModel (u) -> recmodel0_
 Resolved : u -> recmodel0_.CONTENT_ID
-getDataType() : mContentID -> org.hibernate.type.StringType@6c019110
+getDataType() : mContentID -> org.hibernate.type.StringType@1521c8a1
 Resolved : u.mContentID -> recmodel0_.CONTENT_ID
 select : finishing up [level=1, statement=select]
 processQuery() :  ( SELECT ( FromClause{level=1} RECORD_MODEL recmodel0_ ) ( where ( = ( recmodel0_.CONTENT_ID recmodel0_.CONTENT_ID mContentID ) ? ) ) )
@@ -828,7 +830,7 @@ select >> end [level=1, statement=select]
           +-[DOT] DotNode: 'recmodel0_.CONTENT_ID' {propertyName=mContentID,dereferenceType=PRIMITIVE,getPropertyPath=mContentID,path=u.mContentID,tableAlias=recmodel0_,className=model.RecModel,classAlias=u}
           |  +-[ALIAS_REF] IdentNode: 'recmodel0_.CONTENT_ID' {alias=u, className=model.RecModel, tableAlias=recmodel0_}
           |  \-[IDENT] IdentNode: 'mContentID' {originalText=mContentID}
-          \-[NAMED_PARAM] ParameterNode: '?' {name=ContentID, expectedType=org.hibernate.type.StringType@6c019110}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=ContentID, expectedType=org.hibernate.type.StringType@1521c8a1}
 
 throwQueryException() : no errors
 HQL: from model.RecModel u where u.mContentID= :ContentID
@@ -836,71 +838,17 @@ SQL: select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as C
 throwQueryException() : no errors
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20058285, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://helenkonstandotcom.files.wordpress.com/2014/08/adventure.jpg, mContentID=20058285, mCategoryName=Adventure, mContentName=Oliver World Jungle Adventures}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20058285]
+Resolving associations for [model.RecModel#20058285]
+Done materializing entity [model.RecModel#20058285]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1919857, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1919857, mCategoryName=Racing, mContentName=Car Racing Go}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1911760, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1911760, mCategoryName=Racing, mContentName=Smash Rider}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20038008, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://www.i2symbol.com/images/abc-123/0/circled_digit_zero_u24EA_icon_256x256.png, mContentID=20038008, mCategoryName=0, mContentName=gamesbond app}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1919857]
+Resolving associations for [model.RecModel#1919857]
+Done materializing entity [model.RecModel#1919857]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -918,20 +866,17 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1911760]
+Resolving associations for [model.RecModel#1911760]
+Done materializing entity [model.RecModel#1911760]
 Initiating JDBC connection release from afterTransaction
-begin
+select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1907854, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://www.i2symbol.com/images/abc-123/0/circled_digit_zero_u24EA_icon_256x256.png, mContentID=1907854, mCategoryName=0, mContentName=Mad evil Monster Car}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20038008]
+Resolving associations for [model.RecModel#20038008]
+Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -942,122 +887,59 @@ Done materializing entity [model.RecModel#1907854]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20049217, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20049217, mCategoryName=Racing, mContentName=Fast Lane Car Racer}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1907854]
+Resolving associations for [model.RecModel#1907854]
+Done materializing entity [model.RecModel#1907854]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20076718, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://static-s.aa-cdn.net/img/ios/875167805/8b263257f8548835b5c9c726b7dec1f9?v=1, mContentID=20076718, mCategoryName=Shooting, mContentName=STRIKERS 1945 - 2}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20049217]
+Resolving associations for [model.RecModel#20049217]
+Done materializing entity [model.RecModel#20049217]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20080293, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=20080293, mCategoryName=Arcade, mContentName=Build Block Stack}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20076718]
+Resolving associations for [model.RecModel#20076718]
+Done materializing entity [model.RecModel#20076718]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20083666, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=20083666, mCategoryName=Arcade Game Videos, mContentName=STRIKERS 1945 - 2}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20080293]
+Resolving associations for [model.RecModel#20080293]
+Done materializing entity [model.RecModel#20080293]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20087946, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://static-s.aa-cdn.net/img/ios/875167805/8b263257f8548835b5c9c726b7dec1f9?v=1, mContentID=20087946, mCategoryName=Shooting, mContentName=Cowboy Shoot Zombies}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20083666]
+Resolving associations for [model.RecModel#20083666]
+Done materializing entity [model.RecModel#20083666]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20092571, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=20092571, mCategoryName=Arcade Game Videos, mContentName=Moon Assault}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20087946]
+Resolving associations for [model.RecModel#20087946]
+Done materializing entity [model.RecModel#20087946]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20092571]
+Resolving associations for [model.RecModel#20092571]
+Done materializing entity [model.RecModel#20092571]
 Initiating JDBC connection release from afterTransaction
-begin
+select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20048358, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://www.i2symbol.com/images/abc-123/0/circled_digit_zero_u24EA_icon_256x256.png, mContentID=20048358, mCategoryName=0, mContentName=World T20 Cricket Champs 2016}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20048358]
+Resolving associations for [model.RecModel#20048358]
+Done materializing entity [model.RecModel#20048358]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1068,20 +950,10 @@ Done materializing entity [model.RecModel#1911760]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20003886, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20003886, mCategoryName=Action, mContentName=Empire Defense}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20003886]
+Resolving associations for [model.RecModel#20003886]
+Done materializing entity [model.RecModel#20003886]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1092,20 +964,10 @@ Done materializing entity [model.RecModel#1911760]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20094597, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20094597, mCategoryName=Action, mContentName=Taichi Panda:Heroes}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20094597]
+Resolving associations for [model.RecModel#20094597]
+Done materializing entity [model.RecModel#20094597]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1123,207 +985,87 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20067658, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://helenkonstandotcom.files.wordpress.com/2014/08/adventure.jpg, mContentID=20067658, mCategoryName=Adventure, mContentName=Ultimate Pony Smash World}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20067658]
+Resolving associations for [model.RecModel#20067658]
+Done materializing entity [model.RecModel#20067658]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20081422, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/3d-glossy-orange-orbs-icons-sports-hobbies/106518-3d-glossy-orange-orb-icon-sports-hobbies-people-man-runner.png, mContentID=20081422, mCategoryName=Sports, mContentName=Cricket Battles Live Game}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20081422]
+Resolving associations for [model.RecModel#20081422]
+Done materializing entity [model.RecModel#20081422]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20087205, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://static-s.aa-cdn.net/img/ios/875167805/8b263257f8548835b5c9c726b7dec1f9?v=1, mContentID=20087205, mCategoryName=Shooting, mContentName=Commando Warrior Fury Shooter}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20087205]
+Resolving associations for [model.RecModel#20087205]
+Done materializing entity [model.RecModel#20087205]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20103327, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20103327, mCategoryName=Action, mContentName=Car vs. robots: Demolition 2016}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20103327]
+Resolving associations for [model.RecModel#20103327]
+Done materializing entity [model.RecModel#20103327]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1770873, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1770873, mCategoryName=Racing, mContentName=Sane Lane}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1770873]
+Resolving associations for [model.RecModel#1770873]
+Done materializing entity [model.RecModel#1770873]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1903112, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1903112, mCategoryName=Racing, mContentName=Water Racing - New}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1903112]
+Resolving associations for [model.RecModel#1903112]
+Done materializing entity [model.RecModel#1903112]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20027209, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=20027209, mCategoryName=Arcade, mContentName=Water Splash Pong}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20027209]
+Resolving associations for [model.RecModel#20027209]
+Done materializing entity [model.RecModel#20027209]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20049034, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://1.bp.blogspot.com/-4nVEIBEpSOs/T2ogO_pa8eI/AAAAAAAADkw/3YTiZFexjVk/s1600/chainfire+3d.jpg, mContentID=20049034, mCategoryName=3D, mContentName=Killer Whale Simulator 3D}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20049034]
+Resolving associations for [model.RecModel#20049034]
+Done materializing entity [model.RecModel#20049034]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20105932, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://static1.squarespace.com/static/54691977e4b0773873087bc2/t/54ab8287e4b0e845494aa602/1420526215390/Doozy+Labs+Brand+Strategy+Icon, mContentID=20105932, mCategoryName=Strategy, mContentName=Jurassic Dino Water World}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20105932]
+Resolving associations for [model.RecModel#20105932]
+Done materializing entity [model.RecModel#20105932]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20103058, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20103058, mCategoryName=Action, mContentName=Alien Invasion: The Resistance}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20103058]
+Resolving associations for [model.RecModel#20103058]
+Done materializing entity [model.RecModel#20103058]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20050370, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://1.bp.blogspot.com/-4nVEIBEpSOs/T2ogO_pa8eI/AAAAAAAADkw/3YTiZFexjVk/s1600/chainfire+3d.jpg, mContentID=20050370, mCategoryName=3D, mContentName=911 Ambulance Simulator 3D}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20050370]
+Resolving associations for [model.RecModel#20050370]
+Done materializing entity [model.RecModel#20050370]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20083974, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20083974, mCategoryName=Racing, mContentName=Moto Attack Rider}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20083974]
+Resolving associations for [model.RecModel#20083974]
+Done materializing entity [model.RecModel#20083974]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1334,20 +1076,10 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20004655, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20004655, mCategoryName=Racing, mContentName=Dirt Bike Africa}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20004655]
+Resolving associations for [model.RecModel#20004655]
+Done materializing entity [model.RecModel#20004655]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1365,54 +1097,24 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20091970, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20091970, mCategoryName=Racing, mContentName=Nitro Racing Fever}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20091970]
+Resolving associations for [model.RecModel#20091970]
+Done materializing entity [model.RecModel#20091970]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20096507, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://static1.squarespace.com/static/54691977e4b0773873087bc2/t/54ab8287e4b0e845494aa602/1420526215390/Doozy+Labs+Brand+Strategy+Icon, mContentID=20096507, mCategoryName=Strategy, mContentName=Teen Patti with Sunny Leone}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20096507]
+Resolving associations for [model.RecModel#20096507]
+Done materializing entity [model.RecModel#20096507]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20043852, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20043852, mCategoryName=Action, mContentName=Zombie Shooter -Deadly War Returns}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20043852]
+Resolving associations for [model.RecModel#20043852]
+Done materializing entity [model.RecModel#20043852]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1430,105 +1132,45 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20049085, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20049085, mCategoryName=Action, mContentName=Zombie attack}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20049085]
+Resolving associations for [model.RecModel#20049085]
+Done materializing entity [model.RecModel#20049085]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20050262, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/qaCjBh7bWz0/maxresdefault.jpg, mContentID=20050262, mCategoryName=Puzzle, mContentName=Party Pumpkin Halloween}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20050262]
+Resolving associations for [model.RecModel#20050262]
+Done materializing entity [model.RecModel#20050262]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20056922, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/qaCjBh7bWz0/maxresdefault.jpg, mContentID=20056922, mCategoryName=Puzzle, mContentName=Halloween}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20056922]
+Resolving associations for [model.RecModel#20056922]
+Done materializing entity [model.RecModel#20056922]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20063975, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20063975, mCategoryName=Action, mContentName=Monster Hell}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20063975]
+Resolving associations for [model.RecModel#20063975]
+Done materializing entity [model.RecModel#20063975]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20111863, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20111863, mCategoryName=Action, mContentName=Stickman Revenge 3}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20111863]
+Resolving associations for [model.RecModel#20111863]
+Done materializing entity [model.RecModel#20111863]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20079966, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=20079966, mCategoryName=Arcade, mContentName=Fill Dots}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20079966]
+Resolving associations for [model.RecModel#20079966]
+Done materializing entity [model.RecModel#20079966]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1546,105 +1188,45 @@ Done materializing entity [model.RecModel#20080293]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1788017, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://helenkonstandotcom.files.wordpress.com/2014/08/adventure.jpg, mContentID=1788017, mCategoryName=Adventure, mContentName=Contra Forge for Android}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1788017]
+Resolving associations for [model.RecModel#1788017]
+Done materializing entity [model.RecModel#1788017]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1953486, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1953486, mCategoryName=Racing, mContentName=TURBO TRAFFIC CAR RACER}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1953486]
+Resolving associations for [model.RecModel#1953486]
+Done materializing entity [model.RecModel#1953486]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20022823, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://1.bp.blogspot.com/-4nVEIBEpSOs/T2ogO_pa8eI/AAAAAAAADkw/3YTiZFexjVk/s1600/chainfire+3d.jpg, mContentID=20022823, mCategoryName=3D, mContentName=Military Jeep Parking - 3D}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20022823]
+Resolving associations for [model.RecModel#20022823]
+Done materializing entity [model.RecModel#20022823]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20003491, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://static1.squarespace.com/static/54691977e4b0773873087bc2/t/54ab8287e4b0e845494aa602/1420526215390/Doozy+Labs+Brand+Strategy+Icon, mContentID=20003491, mCategoryName=Strategy, mContentName=Fruit Casino - Slot Machine}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20003491]
+Resolving associations for [model.RecModel#20003491]
+Done materializing entity [model.RecModel#20003491]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20004963, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://static1.squarespace.com/static/54691977e4b0773873087bc2/t/54ab8287e4b0e845494aa602/1420526215390/Doozy+Labs+Brand+Strategy+Icon, mContentID=20004963, mCategoryName=Strategy, mContentName=Footballz Africa Edition}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20004963]
+Resolving associations for [model.RecModel#20004963]
+Done materializing entity [model.RecModel#20004963]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20083375, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20083375, mCategoryName=Racing, mContentName=Car Parking School 3D}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20083375]
+Resolving associations for [model.RecModel#20083375]
+Done materializing entity [model.RecModel#20083375]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1655,20 +1237,10 @@ Done materializing entity [model.RecModel#20094597]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20053334, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20053334, mCategoryName=Racing, mContentName=Platform Crazy Car Climb}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20053334]
+Resolving associations for [model.RecModel#20053334]
+Done materializing entity [model.RecModel#20053334]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1679,20 +1251,10 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20003377, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://1.bp.blogspot.com/-4nVEIBEpSOs/T2ogO_pa8eI/AAAAAAAADkw/3YTiZFexjVk/s1600/chainfire+3d.jpg, mContentID=20003377, mCategoryName=3D, mContentName=3D Mini Golf World Tour}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20003377]
+Resolving associations for [model.RecModel#20003377]
+Done materializing entity [model.RecModel#20003377]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1703,20 +1265,10 @@ Done materializing entity [model.RecModel#1911760]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1915685, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1915685, mCategoryName=Racing, mContentName=Xtreme Dirt Bike Race}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1915685]
+Resolving associations for [model.RecModel#1915685]
+Done materializing entity [model.RecModel#1915685]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1727,37 +1279,17 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20048797, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=20048797, mCategoryName=Arcade, mContentName=Heavy Construction Builder Simulator}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20048797]
+Resolving associations for [model.RecModel#20048797]
+Done materializing entity [model.RecModel#20048797]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20110048, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20110048, mCategoryName=Racing, mContentName=Bike Trials}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20110048]
+Resolving associations for [model.RecModel#20110048]
+Done materializing entity [model.RecModel#20110048]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1768,88 +1300,38 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1939275, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=1939275, mCategoryName=Arcade, mContentName=Real Airplane Simulator}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1939275]
+Resolving associations for [model.RecModel#1939275]
+Done materializing entity [model.RecModel#1939275]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20089679, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20089679, mCategoryName=Racing, mContentName=City Moto Racer}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20089679]
+Resolving associations for [model.RecModel#20089679]
+Done materializing entity [model.RecModel#20089679]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20065670, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20065670, mCategoryName=Action, mContentName=Defender Mission}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20065670]
+Resolving associations for [model.RecModel#20065670]
+Done materializing entity [model.RecModel#20065670]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20067550, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20067550, mCategoryName=Action, mContentName=Unfinished Mission}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20067550]
+Resolving associations for [model.RecModel#20067550]
+Done materializing entity [model.RecModel#20067550]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20078954, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20078954, mCategoryName=Action Game Videos, mContentName=Unfinished Mission}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20078954]
+Resolving associations for [model.RecModel#20078954]
+Done materializing entity [model.RecModel#20078954]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1881,20 +1363,10 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20085918, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20085918, mCategoryName=Action, mContentName=Assault Commando 2}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20085918]
+Resolving associations for [model.RecModel#20085918]
+Done materializing entity [model.RecModel#20085918]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1919,37 +1391,17 @@ Done materializing entity [model.RecModel#1911760]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1928887, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1928887, mCategoryName=Racing, mContentName=Trial Extreme Stunt Bike Race}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1928887]
+Resolving associations for [model.RecModel#1928887]
+Done materializing entity [model.RecModel#1928887]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20082376, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://static1.squarespace.com/static/54691977e4b0773873087bc2/t/54ab8287e4b0e845494aa602/1420526215390/Doozy+Labs+Brand+Strategy+Icon, mContentID=20082376, mCategoryName=Strategy, mContentName=Heroes Reborn}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20082376]
+Resolving associations for [model.RecModel#20082376]
+Done materializing entity [model.RecModel#20082376]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -1967,88 +1419,38 @@ Done materializing entity [model.RecModel#20079966]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1844174, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1844174, mCategoryName=Racing, mContentName=Line Racing 2}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1844174]
+Resolving associations for [model.RecModel#1844174]
+Done materializing entity [model.RecModel#1844174]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1869314, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1869314, mCategoryName=Racing, mContentName=Bad Roads}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1869314]
+Resolving associations for [model.RecModel#1869314]
+Done materializing entity [model.RecModel#1869314]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1928882, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=1928882, mCategoryName=Racing, mContentName=Motor Bike Racing Moto Racing}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1928882]
+Resolving associations for [model.RecModel#1928882]
+Done materializing entity [model.RecModel#1928882]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1938224, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/qaCjBh7bWz0/maxresdefault.jpg, mContentID=1938224, mCategoryName=Puzzle, mContentName=Bubble Shooter Epic}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1938224]
+Resolving associations for [model.RecModel#1938224]
+Done materializing entity [model.RecModel#1938224]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20003659, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/qaCjBh7bWz0/maxresdefault.jpg, mContentID=20003659, mCategoryName=Puzzle, mContentName=Car Parking Mega Puzzle}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20003659]
+Resolving associations for [model.RecModel#20003659]
+Done materializing entity [model.RecModel#20003659]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -2059,37 +1461,17 @@ Done materializing entity [model.RecModel#20038008]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20045625, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=20045625, mCategoryName=Arcade, mContentName=Jack Pac}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20045625]
+Resolving associations for [model.RecModel#20045625]
+Done materializing entity [model.RecModel#20045625]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20048491, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/qaCjBh7bWz0/maxresdefault.jpg, mContentID=20048491, mCategoryName=Puzzle, mContentName=Draw A Line}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20048491]
+Resolving associations for [model.RecModel#20048491]
+Done materializing entity [model.RecModel#20048491]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -2100,88 +1482,38 @@ Done materializing entity [model.RecModel#20049085]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20057518, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/9hJwMQJzPuM/maxresdefault.jpg, mContentID=20057518, mCategoryName=Arcade, mContentName=Mancala & Friends}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20057518]
+Resolving associations for [model.RecModel#20057518]
+Done materializing entity [model.RecModel#20057518]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20065315, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=null, mContentID=20065315, mCategoryName=Entertainment Game Videos, mContentName=Top 10 Video Game Trailers Better Than The Game}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20065315]
+Resolving associations for [model.RecModel#20065315]
+Done materializing entity [model.RecModel#20065315]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20074150, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/glossy-black-3d-buttons-icons-sports-hobbies/044228-glossy-black-3d-button-icon-sports-hobbies-flag-race2-sc49.png, mContentID=20074150, mCategoryName=Racing, mContentName=Race Illegal}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20074150]
+Resolving associations for [model.RecModel#20074150]
+Done materializing entity [model.RecModel#20074150]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 20109450, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=http://techob.com/wp-content/uploads/2016/08/3_small.jpg, mContentID=20109450, mCategoryName=Action, mContentName=The commando war}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#20109450]
+Resolving associations for [model.RecModel#20109450]
+Done materializing entity [model.RecModel#20109450]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Initiating JDBC connection release from afterTransaction
-begin
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
-Generated identifier: 1944233, using strategy: org.hibernate.id.Assigned
-committing
-Processing flush-time cascades
-Dirty checking collections
-Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-Listing entities:
-model.RecModel{mImgUrl=https://i.ytimg.com/vi/qaCjBh7bWz0/maxresdefault.jpg, mContentID=1944233, mCategoryName=Puzzle, mContentName=Clock Work}
-insert into RECORD_MODEL (CATEGORY_NAME, CONTENT_NAME, IMG_URL, CONTENT_ID) values (?, ?, ?, ?)
-Initiating JDBC connection release from afterTransaction
-Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
+Result set row: 0
+Result row: EntityKey[model.RecModel#1944233]
+Resolving associations for [model.RecModel#1944233]
+Done materializing entity [model.RecModel#1944233]
 Initiating JDBC connection release from afterTransaction
 select recmodel0_.CONTENT_ID as CONTENT_1_0_, recmodel0_.CATEGORY_NAME as CATEGORY2_0_, recmodel0_.CONTENT_NAME as CONTENT_3_0_, recmodel0_.IMG_URL as IMG_URL4_0_ from RECORD_MODEL recmodel0_ where recmodel0_.CONTENT_ID=?
 Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/RecModel]
@@ -2203,23 +1535,4 @@ Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
 JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
 Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
 Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-Root WebApplicationContext: initialization completed in 9041 ms
-Closing Root WebApplicationContext: startup date [Mon Nov 28 19:05:33 IST 2016]; root of context hierarchy
-Returning cached instance of singleton bean 'lifecycleProcessor'
-Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4806b39a: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,recControl,redisController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,dataSource,sessionFactory,redisImpl,recDaoImpl,recServiceImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
-Retrieved dependent beans for bean 'sessionFactory': [recDaoImpl]
-Retrieved dependent beans for bean 'recDaoImpl': [recServiceImpl]
-Retrieved dependent beans for bean 'recServiceImpl': [recControl, redisController]
-Invoking destroy() on bean with name 'sessionFactory'
-HHH000031: Closing
-Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
-Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
-Retrieved dependent beans for bean 'org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0': [(inner bean)#a7fd763, (inner bean)#a7fd763#1]
-Retrieved dependent beans for bean '(inner bean)#a7fd763': [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]
-Retrieved dependent beans for bean '(inner bean)#66840de8': [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]
-Retrieved dependent beans for bean '(inner bean)#4853a772': [(inner bean)#4d605007]
-Retrieved dependent beans for bean '(inner bean)#a7fd763#1': [(inner bean)#40b5649]
-Retrieved dependent beans for bean '(inner bean)#40b5649': [mvcUriComponentsContributor]
-Retrieved dependent beans for bean '(inner bean)#66840de8#1': [(inner bean)#40b5649]
-Retrieved dependent beans for bean '(inner bean)#4853a772#1': [(inner bean)#4d605007#1]
-Invoking destroy() on bean with name 'org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0'
+Root WebApplicationContext: initialization completed in 2447 ms

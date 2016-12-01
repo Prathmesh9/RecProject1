@@ -9,6 +9,7 @@ import java.util.HashMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -37,7 +38,7 @@ public class RecControl {
 		int i;
 		try {
 			HashMap<String, String> hmap=new HashMap<>();
-			reader = new JsonReader(new FileReader("/home/bridgeit/Prathmesh/PrathmeshC/RecTrial/abc.json"));
+			reader = new JsonReader(new FileReader("/home/bridgeit/Prathmesh/PrathmeshC/RecTrial/imageUrl.json"));
 			reader.beginObject();
 			while(reader.hasNext()){
 				hmap.put(reader.nextName(), reader.nextString());
@@ -83,8 +84,8 @@ public class RecControl {
 	 //return "redirect:/get";
 	}
 
-	@RequestMapping(value = "/getContent", headers = "Accept=application/json", method = RequestMethod.POST)
-	public ModelAndView csvRead(@RequestBody String content, RedirectAttributes redirectAttibute) {
+	@RequestMapping(value = "/getContentID", headers = "Accept=application/json", method = RequestMethod.POST)
+	public ModelAndView getSuggestionByJson(@RequestBody String content, RedirectAttributes redirectAttibute) {
 		System.out.println("Inside controller with contentId = " + content);
 		Utility u = new Utility();
 		RecModel record = u.fromJson(content);
@@ -92,6 +93,17 @@ public class RecControl {
 		redirectAttibute.addFlashAttribute("recmodel", record);
 		System.out.println("Outside");
 		return new ModelAndView("redirect:/get");
+	}
+	
+	@RequestMapping(value="getContentName",method=RequestMethod.POST)
+	public ModelAndView getSuggestionByString(@ModelAttribute("pContentName")String pContentName,RedirectAttributes redirectAttibute){
+		System.out.println("Inside controller with contentId = " + pContentName);
+		RecModel record = recServiceImpl.getbyContentName(pContentName);
+		System.out.println("Inside rec controller: contentid :"+record.getmContentID());
+		//recServiceImpl.addToDao(record);
+		redirectAttibute.addFlashAttribute("recmodel", record);
+		System.out.println("Outside");
+		return new ModelAndView("redirect:/getContent");
 	}
 
 }
